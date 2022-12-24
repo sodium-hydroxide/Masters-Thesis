@@ -1,0 +1,69 @@
+\documentclass[master]{thesis}
+\usepackage{../csuGeneric}
+\usepackage{booktabs}
+\usepackage{url}
+\urlstyle{same}
+\newcommand{\eref}[1]{\eqref{#1}}        % cite equation
+\newcommand{\fref}[1]{Figure~\ref{#1}}   % cite figure
+\newcommand{\cref}[1]{Chapter~\ref{#1}}  % cite chapter
+\newcommand{\sref}[1]{Section~\ref{#1}}  % cite section/sub(sub)section
+\newcommand{\aref}[1]{Appendix~\ref{#1}} % cite appendix
+\newcommand{\tref}[1]{Table~\ref{#1}}    % cite table
+\title{Creative Title}
+\author{Noah J. Blar}
+\email{noah.blair@colostate.edu}
+\department{Department of Environmental and Radiological Health Sciences}
+\semester{Spring 2024}
+\advisor{Dr. Alexander Brandl}
+\committee{Dr. Ralf Sudowe} 
+\committee{Second Member}
+\mycopyright{%
+Copyright by Noah J. Blair 2024 \\
+All Rights Reserved
+}
+\abstract{\input{1-abstract.tex}}
+\acknowledgements{\input{1-acknowledgements.tex}}
+\begin{document} 
+    \frontmatter 
+    \maketitle              % insert title page
+    \makemycopyright        % insert copyright page
+    \makeabstract           % insert abstract page
+    \makeacknowledgements   % insert acknowledgements page
+    \prelimtocentry{Dedication} % add table of contents entry
+    \begin{flatcenter} % center without extra space
+
+        % page title
+        DEDICATION
+
+        %\vspace{3em} % place at top
+        \vfill % or center on page
+
+        \noindent \textit{To my grandfather and dear friend Bo7b, whose love of learning and guidance helped me become the man I am today.}
+        \vfill % fill extra space at bottom
+    \end{flatcenter}
+    \newpage
+    \setcounter{tocdepth}{1}
+    \tableofcontents    % insert table of contents
+    \listoftables       % insert list of tables (optional)
+    \listoffigures      % insert list of figures (optional)
+
+    \mainmatter % starts thesis body
+
+    \chapter{Introduction}\label{toc:ch.introduction}
+    \input{1-intro.tex}
+    \chapter{Methodology}\label{toc:ch.methodology}
+    \input{1-methods.tex}
+    \chapter{Results}\label{toc:ch.results}
+    \input{1-results.tex}
+    \chapter{Discussion}\label{toc:ch.discussion}
+    \input{1-discussion.tex}
+    \chapter{Conclusion}\label{toc:ch.conclusion}
+    \input{1-conclusion.tex}
+    \backmatter
+    %\bibliographystyle{unsrt}
+    \bibliographystyle{apalike}
+    \bibliography{sources}
+    %\appendix
+    %\chapter{Dosimetry}
+    %\input{1-dosimetry.tex}
+\end{document}
