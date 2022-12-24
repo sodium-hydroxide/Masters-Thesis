@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex main"] 1670693905 "main.aux" "main.bbl" "main" 1670693906
+["bibtex main"] 1670693905 "main.aux" "main.bbl" "main" 1671891018
   "/usr/local/texlive/2022/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "main.aux" 1670693906 6698 78c571697a2df10884aaaee7a39dae1e "pdflatex"
+  "main.aux" 1671891018 6698 78c571697a2df10884aaaee7a39dae1e "pdflatex"
   "sources.bib" 1670693733 1713 2143a04d6f51bf41190e6d30220d9639 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1670693905 "/Users/dalinar/Documents/GeneralDocs/Colostate/-Thesis/main.tex" "main.pdf" "main" 1670693906
-  "../csuGeneric.sty" 1670525007 7795 8f6c7764e37179268c53304983680ff3 ""
-  "/Users/dalinar/Documents/GeneralDocs/Colostate/-Thesis/main.tex" 1670265454 2386 ad5d65fcb3dfd47afa7e1b4ea0790d4f ""
+["pdflatex"] 1671891018 "/Users/dalinar/Documents/Colostate/-Thesis/main.tex" "main.pdf" "main" 1671891018
+  "../ERHS-Styles/csuGeneric.sty" 1670525007 7795 8f6c7764e37179268c53304983680ff3 ""
+  "/Users/dalinar/Documents/Colostate/-Thesis/main.tex" 1671890469 2398 f3ed71127cefd541351f66cbbe30ac3a ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm" 1136768653 4524 6bce29db5bc272ba5f332261583fee9c ""
@@ -149,17 +149,17 @@
   "1-intro.portalMonitors.tex" 0 -1 0 ""
   "1-intro.radDetection.tex" 1670253598 200 918f26524fc6540d95f6a5bb3614eaf9 ""
   "1-intro.radInteractions.tex" 1670100098 107 2d8245ea03445aebe4a82d2d57cd6de3 ""
-  "1-intro.sourceOfIonizingRatiation.tex" 1670693904 1073 498043537b1690eade4b06a04e26ec4e ""
+  "1-intro.sourceOfIonizingRatiation.tex" 1670693907 1073 498043537b1690eade4b06a04e26ec4e ""
   "1-intro.tex" 1670253703 551 ab0f89f5053e013b9615e60b66a4d7d5 ""
   "1-methods.tex" 0 -1 0 ""
   "1-results.tex" 0 -1 0 ""
-  "main.aux" 1670693906 6698 78c571697a2df10884aaaee7a39dae1e "pdflatex"
+  "main.aux" 1671891018 6698 78c571697a2df10884aaaee7a39dae1e "pdflatex"
   "main.bbl" 1670693905 298 a25aed849907cc9bf9f05fe3d4ba26be "bibtex main"
-  "main.lof" 1670693906 100 4353d675f6b597e3aa3d5147c8369dec "pdflatex"
-  "main.lot" 1670693906 100 4353d675f6b597e3aa3d5147c8369dec "pdflatex"
-  "main.out" 1670693906 1937 a91a21a8ac3a3352cdad6dac5e567ab5 "pdflatex"
-  "main.tex" 1670265454 2386 ad5d65fcb3dfd47afa7e1b4ea0790d4f ""
-  "main.toc" 1670693906 3041 0c2117acde362fc6ba46dd00e3ae92c8 "pdflatex"
+  "main.lof" 1671891018 100 4353d675f6b597e3aa3d5147c8369dec "pdflatex"
+  "main.lot" 1671891018 100 4353d675f6b597e3aa3d5147c8369dec "pdflatex"
+  "main.out" 1671891018 1937 a91a21a8ac3a3352cdad6dac5e567ab5 "pdflatex"
+  "main.tex" 1671890469 2398 f3ed71127cefd541351f66cbbe30ac3a ""
+  "main.toc" 1671891018 3041 0c2117acde362fc6ba46dd00e3ae92c8 "pdflatex"
   "thesis.cls" 1588911798 19076 ae9d4c85ecedad49cfb80f86e412eb29 ""
   (generated)
   "main.aux"
