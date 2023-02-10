@@ -10,7 +10,7 @@
 \newcommand{\aref}[1]{Appendix~\ref{#1}} % cite appendix
 \newcommand{\tref}[1]{Table~\ref{#1}}    % cite table
 \title{Creative Title}
-\author{Noah J. Blar}
+\author{Noah J. Blair}
 \email{noah.blair@colostate.edu}
 \department{Department of Environmental and Radiological Health Sciences}
 \semester{Spring 2024}
@@ -21,8 +21,8 @@
 Copyright by Noah J. Blair 2024 \\
 All Rights Reserved
 }
-\abstract{\input{1-abstract.tex}}
-\acknowledgements{\input{1-acknowledgements.tex}}
+\abstract{\input{abstract.tex}}
+\acknowledgements{\input{acknowledgements.tex}}
 \begin{document} 
     \frontmatter 
     \maketitle              % insert title page
@@ -38,7 +38,7 @@ All Rights Reserved
         %\vspace{3em} % place at top
         \vfill % or center on page
 
-        \noindent \textit{To my grandfather and dear friend Bo7b, whose love of learning and guidance helped me become the man I am today.}
+        \noindent \textit{\input{dedication.tex}}
         \vfill % fill extra space at bottom
     \end{flatcenter}
     \newpage
@@ -50,20 +50,17 @@ All Rights Reserved
     \mainmatter % starts thesis body
 
     \chapter{Introduction}\label{toc:ch.introduction}
-    \input{1-intro.tex}
-    \chapter{Methodology}\label{toc:ch.methodology}
-    \input{1-methods.tex}
+    \input{introduction.tex}
+    \chapter{Materials and Methodology}\label{toc:ch.methodology}
+    \input{methods.tex}
     \chapter{Results}\label{toc:ch.results}
-    \input{1-results.tex}
+    \input{results.tex}
     \chapter{Discussion}\label{toc:ch.discussion}
-    \input{1-discussion.tex}
+    \input{discussion.tex}
     \chapter{Conclusion}\label{toc:ch.conclusion}
-    \input{1-conclusion.tex}
+    \input{conclusion.tex}
     \backmatter
     %\bibliographystyle{unsrt}
     \bibliographystyle{apalike}
     \bibliography{sources}
-    %\appendix
-    %\chapter{Dosimetry}
-    %\input{1-dosimetry.tex}
 \end{document}
